@@ -13,3 +13,4 @@ arr.forEach(element => {
 });
 console.log("after")
 console.table(arr);
+// it is a optimal solution there is no better than O(n^2) in time and space with O(1) 
