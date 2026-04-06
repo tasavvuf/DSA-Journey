@@ -3,7 +3,7 @@ let merged = []
 a.sort((a,b)=>a[0]-b[0])
 console.log(a)
 for (const i of a) {
-    if(merged==0 || merged[merged.length-1][1]<i[0]){
+    if(merged.length==0 || merged[merged.length-1][1]<i[0]){
         merged.push(i)
     }
     else {
